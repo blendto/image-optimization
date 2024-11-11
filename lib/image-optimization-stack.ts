@@ -324,13 +324,13 @@ export class ImageOptimizationStack extends Stack {
       this,
       "imageDeliveryDistribution",
       {
-        comment: "blend-assets-devo optimized images distribution",
+        comment: "blend-assets optimized images distribution",
         defaultBehavior: imageDeliveryCacheBehaviorConfig,
-        domainNames: ["assets-devo-smart.blend.to"],
+        domainNames: ["assets-smart.blend-api.com"],
         certificate: acm.Certificate.fromCertificateArn(
           this,
           "certificate",
-          "arn:aws:acm:us-east-1:558879754161:certificate/8fcc0282-b7ec-40de-b4a5-766b064ea700"
+          "arn:aws:acm:us-east-1:558879754161:certificate/cea954ec-cbc7-463a-9306-304360d6bd6c"
         ),
       }
     );

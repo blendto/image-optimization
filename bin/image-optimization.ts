@@ -4,4 +4,4 @@ import * as cdk from "aws-cdk-lib";
 import { ImageOptimizationStack } from "../lib/image-optimization-stack";
 
 const app = new cdk.App();
-new ImageOptimizationStack(app, "BlendAssetsDevoCDNWithImageOptimizer", {});
+new ImageOptimizationStack(app, "BlendAssetsProdCDNWithImageOptimizer", {});
